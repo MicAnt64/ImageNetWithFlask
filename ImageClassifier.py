@@ -84,4 +84,5 @@ def upload_image():
         return render_template('ImageML.html', prediction = 'Invalid file extension.')
     
 if __name__ == '__main__':
-    app.run(debug=True, use_reloader=False)
+    #app.run(debug=True, use_reloader=False)
+    app.run()
